@@ -33,7 +33,11 @@ describe('Dice', function() {
 		it('is greater than or equal to 1', function() {
 			dice.roll()
 			expect(dice.secondRoll >= 1).toBe(true)
-			expect(dice.secondRoll).toBeGreaterThan(1)
+			expect(dice.secondRoll).toBeGreaterThan(0)
 		})
 	})
+
+	// it('will roll double score if roll is a double', function() {
+
+	// })
 })
