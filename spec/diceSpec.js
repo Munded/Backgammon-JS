@@ -19,7 +19,7 @@ describe('Dice', function() {
 		it('is greater than or equal to 1', function() {
 			dice.roll()
 			expect(dice.firstRoll >= 1).toBe(true)
-			expect(dice.firstRoll).toBeGreaterThan(1)
+			expect(dice.firstRoll).toBeGreaterThan(0)
 		})
 	})
 
