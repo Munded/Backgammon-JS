@@ -36,5 +36,28 @@ describe('Game', function() {
 			})
 		})
 
+		describe('placing black pieces', function() {
+
+			it('2 black pieces in (24)', function(){
+				expect(game.board[24].length).toEqual(2)
+				expect(game.board[24][0].colour).toEqual("black")
+			})
+
+			it('5 black pieces in (13)', function(){
+				expect(game.board[13].length).toEqual(5)
+				expect(game.board[13][0].colour).toEqual("black")
+			})
+
+			it('3 black pieces in (8)', function(){			
+				expect(game.board[8].length).toEqual(3)
+				expect(game.board[8][0].colour).toEqual("black")
+			})
+
+			it('5 black pieces in (6)', function(){	
+				expect(game.board[6].length).toEqual(5)
+				expect(game.board[6][0].colour).toEqual("black")
+			})
+		})
+
 	})
 })
