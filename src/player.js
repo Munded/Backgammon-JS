@@ -4,4 +4,5 @@ var Player = function(colour) {
 	} else {
 		throw new Error("Invalid Player")
 	}
+	this.dice = new Dice
 };

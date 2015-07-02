@@ -1,6 +1,8 @@
 var Game = function() {
 	this.board = {}
 	this.boardCreation()
+	this.player1 = new Player('white')
+	this.player2 = new Player('black')
 };
 
 Game.prototype.boardCreation = function() {
